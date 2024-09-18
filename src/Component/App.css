@@ -1,0 +1,47 @@
+/* Container for the entire application */
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the contents horizontally */
+  width: 100%; /* Full width of the viewport */
+  max-width: 600px; /* Max width to ensure good readability */
+  margin: 0 auto; /* Center the container within the viewport */
+}
+
+/* Container for items within the application */
+.items-container {
+  width: 100%; /* Full width of its parent */
+  margin-top: 20px; /* Space between this container and content above */
+  text-align: left; /* Align text and items to the left */
+}
+
+/* Styling for main heading */
+h1 {
+  font-weight: 600; /* Bold text */
+  font-size: 45px; /* Large font size for prominence */
+  margin: 10px; /* General margin around the heading */
+  margin-bottom: 20px; /* Extra space below the heading */
+  text-align: center; /* Center the heading text */
+}
+
+/* Styling for input fields */
+input {
+  width: 100%; /* Full width of the container */
+}
+
+/* Styling for rows containing multiple items */
+.kg-row {
+  margin: 10px 5px; /* Margin around each row */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+}
+
+/* Styling for buttons in the column with class 'col-2' */
+.col-2 button {
+  margin-left: 10px; /* Space between buttons */
+}
+
+/* Remove left margin from the first button in 'col-2' */
+.col-2 button:first-of-type {
+  margin-left: 0; /* No margin for the first button */
+}
