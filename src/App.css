@@ -1,5 +1,4 @@
 h1{
-
   text-align: center;
   font-size: 45px;
   font-weight: 600;
@@ -19,6 +18,6 @@ width: 100%;
 }
 
 .kg-button{
-  min-width: 50px;
+  min-width: 80px;
 
 }

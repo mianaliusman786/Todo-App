@@ -1,6 +1,10 @@
-function Appname(){
-  return(
-    <h1>Todo React App</h1>
+import styles from './Appname.module.css';
+
+function Appname() {
+  return (
+    <>
+      <h1 className={styles.heading}>Todo App</h1>
+    </>
   );
 }
 
